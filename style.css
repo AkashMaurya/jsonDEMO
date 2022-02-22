@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#myP {
+    margin-top: 4rem;
+}
+
+#myP:hover {
+    text-transform: capitalize;
+    cursor: pointer;
+}

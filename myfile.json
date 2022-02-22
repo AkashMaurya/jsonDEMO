@@ -1,0 +1,41 @@
+[
+    {
+        "Name": "Akash Maurya",
+        "mobile": "+973 33 961757",
+        "city": "delhi",
+        "course": [
+            "HTML",
+            "CSS"
+        ],
+        "Address": {
+            "area": "Sonia vihar",
+            "pin": "110094"
+        }
+    },
+    {
+        "Name": "Prakash Maurya",
+        "mobile": "+973 33 9623757",
+        "city": "Mumbai",
+        "course": [
+            "BBA",
+            "MBA"
+        ],
+        "Address": {
+            "area": "Bandra",
+            "pin": "12092"
+        }
+    },
+    {
+        "Name": "Steven",
+        "mobile": "+973 33 033981",
+        "city": "Manama",
+        "course": [
+            "BBA",
+            "MBA"
+        ],
+        "Address": {
+            "area": "bahrain",
+            "pin": "3452"
+        }
+    }
+]
