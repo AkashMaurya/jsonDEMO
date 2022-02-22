@@ -21,12 +21,13 @@
 
         <table class="table table-primary table-hover text-lefts" id="myTable" border="1" cellpadding="8" >
             <tr class="table-active">
+                <th>Register ID</th>
                 <th>Full Name</th>
-                <th>Mobile</th>
-                <th>City</th>
-                <th>Course</th>
-                <th>Area</th>
-                <th>Pin</th>
+                <th>Program</th>
+                <th>Nation</th>
+                <th>Level</th>
+                <th>Email</th>
+                <th>Term 1 Score</th>
             </tr>
 
         </table>
@@ -83,17 +84,18 @@
 
         $(document).ready(function () {
             var myData = '';
-            $.getJSON("myfile.json", function (data) {
+            $.getJSON("student.json", function (data) {
                 // console.log(data[1]);
                 var myData = '';
                 $.each(data, function (key, value) {
                     myData += '<tr>';
-                    myData += '<td>' + value.Name + '</td>';
-                    myData += '<td>' + value.mobile + '</td>';
-                    myData += '<td>' + value.city + '</td>';
-                    myData += '<td>' + value.course + '</td>';
-                    myData += '<td>' + value.Address.area + '</td>';
-                    myData += '<td>' + value.Address.pin + '</td>';
+                    myData += '<td>' + value.Register_ID + '</td>';
+                    myData += '<td>' + value.Name_in_EN + '</td>';
+                    myData += '<td>' + value.Program + '</td>';
+                    myData += '<td>' + value.Nation + '</td>';
+                    myData += '<td>' + value.Level + '</td>';
+                    myData += '<td>' + value.Email + '</td>';
+                    myData += '<td>' + value.term_1_score + '</td>';
                     myData += '</tr>';
 
                 });

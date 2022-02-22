@@ -37,5 +37,18 @@
             "area": "bahrain",
             "pin": "3452"
         }
+    },
+    {
+        "Name": "Roshni",
+        "mobile": "+973 33 032341",
+        "city": "Manama",
+        "course": [
+            "BBA",
+            "MBA"
+        ],
+        "Address": {
+            "area": "zufiar",
+            "pin": "3652"
+        }
     }
 ]
